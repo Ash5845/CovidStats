@@ -17,13 +17,13 @@ Here is a working live demo:
 
 The homepage shows a live view of the total latest worldwide Covid cases, deaths & recoveries
 
-![homePage](Images/homePage.png)
+![](Images/homePage.PNG)
 
 **Countries Page**
 
 This page provides a live a table of each individual country and their current cases, deaths and recoveries
 
-![countriesPage](Images/countriesPage.png)
+![](Images/countriesPage.PNG)
 
 ## Technologies
 ---
