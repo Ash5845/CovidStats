@@ -9,7 +9,7 @@ A responsive webapp which uses the Covid19api.com API to provide a simple and qu
 
 ## **Demo**
 ---
-Here is a working live demo: 
+Here is a working live demo: https://covid-data-app.herokuapp.com/
 
 ### **Site**
 ---
