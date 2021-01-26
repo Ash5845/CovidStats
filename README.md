@@ -9,19 +9,21 @@ A responsive webapp which uses the Covid19api.com API to provide a simple and qu
 
 ## **Demo**
 ---
-Here is a working live demo: 
+Here is a working live demo: https://covid-data-app.herokuapp.com/
 
 ### **Site**
 ---
 **Landing Page**
 
 The homepage shows a live view of the total latest worldwide Covid cases, deaths & recoveries
-![homePage](/images/homePage.png)
+
+![](Images/homePage.PNG)
 
 **Countries Page**
 
 This page provides a live a table of each individual country and their current cases, deaths and recoveries
-![countriesPage](/images/countriesPage.png)
+
+![](Images/countriesPage.PNG)
 
 ## Technologies
 ---
