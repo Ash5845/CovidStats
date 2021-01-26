@@ -1,0 +1,34 @@
+<% layout("layouts/boilerplate") %> 
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <h2 class="title">World Totals</h2>
+            <h3 class="subtitle">Last Update: <%= modifiedDate %></h3>
+            <div class="cardsContainer">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-briefcase-medical"></i>
+                        <div class="text">Total Confirmed <br> Cases:</div>
+                        <p><%= covidData.Global.TotalConfirmed %> </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-times-circle"></i>
+                        <div class="text">Total Deaths:</div>
+                        <p><%= covidData.Global.TotalDeaths %></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-check-circle"></i>
+                        <div class="text">Total Recovered:</div>
+                        <p><%= covidData.Global.TotalRecovered %></p>
+                    </div>
+                </div>
+            </div>
+            <div class="citation">
+            <em>*Live data provided by John Hopkins CSSE via <a href="https://covid19api.com/" target="_blank">https://covid19api.com/</a></em>
+            </div>
+        </div>
+    </section>

@@ -1,0 +1,10 @@
+<% layout("layouts/boilerplate") %> 
+
+<section class="errorPage">
+    <div class="max-width">
+<h4 class="errorHeading">Error <%= err.statusCode %>! <%= err.message %></h4>
+<% if(process.env.NODE_ENV !== "production") { %>
+  <p><%= err.stack %></p>
+<% }  %> 
+</div>
+</section>
